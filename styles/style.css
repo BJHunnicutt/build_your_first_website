@@ -1,0 +1,121 @@
+h2 {
+  color: black;
+  padding: 5px;
+  font-family: Helvetica;
+  clear: left;
+}
+
+h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #f2e8c4;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 58px;
+  line-height: 54px;
+  text-shadow: 3px 6px 0 rgba(0,0,0,0.4);
+}
+
+
+p {
+  color: black;
+  text-align: justify;
+}
+
+body{
+  margin:2px;
+  font: 18px Helvetica;
+  background:#ffabab;
+  /*background:#000;*/
+  top: auto;
+
+}
+
+img {
+    max-height: 300px;
+    height: auto;
+    width: auto; /* ie8 */
+}
+
+
+.picture-gallery li {
+		float: left;
+    padding: 3px;
+    list-style-type: none;
+	}
+
+.book-contacts {
+  padding-left: 200px;
+}
+
+/*ul li {
+		display: inline;
+	}*/
+
+article {
+   margin: 4px;
+   /*background: #000;
+   height: auto;*/
+}
+
+header, footer {
+  /*display: block;*/
+  padding: 5px;
+  height: auto;
+  color: #f2e8c4;
+  border: 1px solid #000;
+  background: #a60707;
+}
+
+
+.site-footer {
+  /*margin-top: 200px;*/
+  clear: both;
+}
+
+
+/* --- To make a sticky footer --- */
+
+/*The whole height of the screen and/or the site is 100%*/
+html, body {
+  height: 100%;
+}
+
+/*The section containing all of the body except the footer is class="page-wrap"*/
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 50px;
+}
+
+
+
+.book-overview {
+  float: left;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #470606;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/*nav {
+
+}*/
